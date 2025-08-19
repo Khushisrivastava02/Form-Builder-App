@@ -1,0 +1,82 @@
+{
+  "forms": [
+    {
+      "id": "1001",
+      "createdAt": "2025-08-19T12:00:00.000Z",
+      "title": "Internship Application Form",
+      "status": "draft",
+      "fields": [
+        {
+          "label": "Full Name",
+          "type": "text"
+        },
+        {
+          "label": "Email Address",
+          "type": "email"
+        },
+        {
+          "label": "Gender",
+          "type": "radio"
+        },
+        {
+          "label": "Accept Terms & Conditions",
+          "type": "checkbox"
+        },
+        {
+          "label": "About Yourself",
+          "type": "textarea"
+        }
+      ]
+    }
+  ],
+  "submissions": [
+    {
+      "id": "2001",
+      "formId": "1001",
+      "createdAt": "2025-08-19T12:05:00.000Z",
+      "data": {
+        "Full Name": "Khushi Srivastava",
+        "Email Address": "khushi@example.com",
+        "Gender": "Female",
+        "Accept Terms & Conditions": true,
+        "About Yourself": "B.Tech CSE student looking forward to gaining internship experience."
+      }
+    },
+    {
+      "id": "2002",
+      "formId": "1001",
+      "createdAt": "2025-08-19T12:15:00.000Z",
+      "data": {
+        "Full Name": "Priya Sharma",
+        "Email Address": "priya@example.com",
+        "Gender": "Female",
+        "Accept Terms & Conditions": true,
+        "About Yourself": "Commerce + Law student, keen to learn new skills."
+      }
+    },
+    {
+      "id": "2003",
+      "formId": "1001",
+      "createdAt": "2025-08-19T12:20:00.000Z",
+      "data": {
+        "Full Name": "Rahul Verma",
+        "Email Address": "rahul@example.com",
+        "Gender": "Male",
+        "Accept Terms & Conditions": false,
+        "About Yourself": "Focused on corporate law and financial management."
+      }
+    },
+    {
+      "id": "1755626465190",
+      "formId": "1001",
+      "data": {
+        "Accept Terms & Conditions": true,
+        "Full Name": "Khushi Srivastava",
+        "Email Address": "khushi@example.com",
+        "Gender": "Option 1",
+        "About Yourself": "B.Tech CSE student looking forward to gaining internship experience."
+      },
+      "createdAt": "2025-08-19T18:01:05.190Z"
+    }
+  ]
+}
